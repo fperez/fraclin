@@ -1,0 +1,30 @@
+**************************************************************************
+Textos de Ayuda para el M¢dulo de Informaci¢n del programa
+Fractales Lineales, Versi¢n 1.2.
+Desarrollado por: Fernando P‚rez
+                  Departamento de F¡sica, Universidad de Antioquia
+                  Abril/1991 (Ver. 1.0) - Septiembre/1992 (Ver. 1.2).
+                  Medell¡n, Colombia.
+**************************************************************************
+
+Graficar
+Esta ventana contiene un solo rengl¢n, rotulado Ejecutar. Con <Ent>,
+comienza la graficaci¢n de las ecuaciones que se encuentren en el momento
+en memoria, de acuerdo con las especificaciones dadas en la ventana Pan-
+talla (comienzo y final de los ejes, trazado de ejes en pantalla, zona
+grande o peque¤a y nombre de la figura).
+
+Cuando se activa la graficaci¢n, cambia la pantalla del programa y aparece
+una ventana cuadrada donde se genera la figura. El programa realiza los
+c lculos de las ecuaciones y coloca puntos en este recuadro que van
+formando el fractal. Si se pulsa cualquier tecla, se suspende el proceso y
+aparece el n£mero de iteraciones realizadas (una iteraci¢n corresponde a
+un punto en la pantalla). Con <C> se reinicia la graficaci¢n, con <I> se
+puede imprimir la figura que haya sido generada (tenga cuidado de preparar
+la impresora antes de pulsar <I>: aseg£rese de que tenga papel, cinta, y
+est‚ encendida), y con <Esc> se cierra el modo de graficaci¢n y el
+programa vuelve al men£ principal.
+
+Nota: La graficaci¢n se puede activar desde cualquier otra ventana del
+programa  con <F2>. Esto cumple la misma funci¢n que llevar el cursor a
+Graficar y dar <Ent>, pero sin desplazarse del lugar donde se encuentre.ï

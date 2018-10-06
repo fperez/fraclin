@@ -1,0 +1,33 @@
+**************************************************************************
+Textos de Ayuda para el M¢dulo de Informaci¢n del programa
+Fractales Lineales, Versi¢n 1.2.
+Desarrollado por: Fernando P‚rez
+                  Departamento de F¡sica, Universidad de Antioquia
+                  Abril/1991 (Ver. 1.0) - Septiembre/1992 (Ver. 1.2).
+                  Medell¡n, Colombia.
+**************************************************************************
+
+Bibliograf¡a
+A continuaci¢n aparece una lista de la bibliograf¡a que sirvi¢ de base
+para el desarrollo de este programa, adem s de algunos otros textos
+relacionados con el tema. Exceptuando el texto de M. Barnsley, todas las
+referencias indicadas son de car cter divulgativo y poco t‚cnico.
+
+¯ BARNSLEY, Michael. Fractals Everywhere. Boston: Academic Press, 1988.
+¯ FRAME, Michael and ERDMAN, Lynne. Coloring Schemes and the Dynamical
+  Structure of Iterated Function Systems. En: Computers in Physics,
+  Vol. 4, No. 5 (sep./oct. 1990).
+¯ GOLDBERGER, Ary; RIGNEY, David y WEST, Bruce. Caos y Fractales en
+  fisiolog¡a humana. En: Investigaci¢n y Ciencia, No. 163 (Abril 1990).
+¯ GLEICK, James. Chaos: Making a new science. New York: Viking, 1987.
+¯ JšRGENS, Hartmut; PEITGEN, Heinz-Otto y SAUPE, Dietmar. El lenguaje de
+  los fractales. En: Investigaci¢n y Ciencia, No. 169 (Oct. 1990).
+¯ MANDELBROT, BenoŒt. The Fractal Geometry of Nature. New York: W. H.
+  Freeman and Co., 1983.
+   ---------. Los Objetos Fractales. Barcelona: Tusquets Ed., 1987.
+   ---------. C¢mo descubr¡ los fractales, Entrevista con Marc Lesort.
+   En: Mundo Cient¡fico, Vol.6, No. 58, (1986).
+¯ SANDER, Leonard M. Crecimiento Fractal. En: Investigaci¢n y Ciencia,
+  No. 126 (Marzo 1987).
+¯ STEWART, Ian. Does God play dice?: The mathematics of chaos. Cambridge:
+  Basil Blackwell, 1990.ï

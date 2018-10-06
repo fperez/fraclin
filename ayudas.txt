@@ -1,0 +1,24 @@
+**************************************************************************
+Textos de Ayuda para el M¢dulo de Informaci¢n del programa
+Fractales Lineales, Versi¢n 1.2.
+Desarrollado por: Fernando P‚rez
+                  Departamento de F¡sica, Universidad de Antioquia
+                  Abril/1991 (Ver. 1.0) - Septiembre/1992 (Ver. 1.2).
+                  Medell¡n, Colombia.
+**************************************************************************
+
+Las Ayudas
+FracLin 1.2 fue concebido como un programa autosuficiente, de modo que
+usted necesite referirse a este "M¢dulo de Informaci¢n" con poca
+frecuencia en su operaci¢n diaria. Para tal efecto, integra lo que se
+conoce como ayuda sensible al contexto, la cual se activa pulsando la
+tecla <F1> en cualquier momento. Con esto, el programa abrir  una ventana
+en el centro de la pantalla con informaci¢n sobre el lugar espec¡fico del
+programa en que se encuentre al momento de pulsar la tecla. Cuando desee
+cerrar la ventana de ayuda, simplemente presione cualquier tecla (en
+algunos pocos casos ser  necesario pulsar <Esc>, el programa le dir 
+cuando esto ocurra).
+
+Adem s, presionando simult neamente las teclas <Ctrl> y <F1>, activar  una
+ventana que contiene informaci¢n general sobre el programa y las
+instrucciones b sicas para su manejo.ï

@@ -1,0 +1,76 @@
+Sr. Fernando P‚rez 
+
+La unidad Util est  compilada en Turbo Pascal Ver. 6.0.
+
+Program Fractales;
+
+Uses 
+   Util, ... ;
+
+
+
+CONTENIDO
+
+La unidad contiene un procedimiento llamado verificar_integridad. Este
+debe colocarlo como primera instrucci¢n de su programa. 
+
+Begin
+  Verificar_Integridad;
+  .
+  .
+  .
+  
+End.
+
+El procedimiento verifica por un par metro al correr el programa fractal.exe,
+si solo se teclea fractal el programa genera un mensaje pero si digita
+                      fractal $***^$     
+la ejecuci¢n debe ser normal.
+Esto nos sirve para encadenar la presentaci¢n de su programa.
+Nota: La primera pantalla "Fractales" no la debe colocar.
+
+
+Adicionalmente la unidad trae una funci¢n para imprimir la pantalla completa o 
+porciones de la misma.
+
+Function  Imprimir_Pantalla_Grafica(X1,Y1,X2,Y2,ModoGrafico) : Boolean;
+
+X1 y Y1 : Coordenadas de la esquina superior izquierda.
+X2 y Y2 : Coordenadas de la esquina inferior derecha.
+
+ModoGrafico  toma los valores de :
+  1   para 320x200 Pixels
+  2   para 640x200 Pixels
+  3   para 640x350 Pixels
+  4   para 720x348 Pixels
+  5   para 640x480 Pixels
+
+Ejemplo:
+
+Imprimir la pantalla completa para el modo de video H‚rcules:
+
+If Imprimir_Pantalla_Grafica(0,0,GetMaxX,GetMaxY,4) then
+  Begin
+    { Impresi¢n completa }
+  End
+Else
+  Begin
+    { Hubo problemas al tratar de imprimir }
+  End;
+
+Si la impresi¢n retorna el valor verdadero no hubo problemas de lo contrario
+no hay impresora, no est  en l¡nea, est  apagada etc.
+
+
+
+NOTAS ADICIONALES
+
+No incluya el procedimiento de protecci¢n contra copia ni la instalaci¢n para
+disco duro.
+
+Atte.
+
+   Carlos y Mauricio
+
+
+

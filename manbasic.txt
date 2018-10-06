@@ -1,0 +1,35 @@
+**************************************************************************
+Textos de Ayuda para el M¢dulo de Informaci¢n del programa
+Fractales Lineales, Versi¢n 1.2.
+Desarrollado por: Fernando P‚rez
+                  Departamento de F¡sica, Universidad de Antioquia
+                  Abril/1991 (Ver. 1.0) - Septiembre/1992 (Ver. 1.2).
+                  Medell¡n, Colombia.
+**************************************************************************
+
+Manejo B sico
+Recuerde que la informaci¢n contenida en esta secci¢n se refiere al
+programa FracLin 1.2 propiamente dicho, y no al "M¢dulo de Informaci¢n".
+FracLin 1.2 es un programa basado en men£s desplegables y ventanas, y
+contiene un sistema de ayuda que le proporcionar  informaci¢n en cualquier
+momento sobre la operaci¢n que est‚ realizando. Si usted est  familiari-
+zado con el manejo de alg£n programa com£n del mercado (procesadores de
+palabras, lenguajes de programaci¢n, bases de datos, etc.), encontrar  muy
+similar la operaci¢n de FracLin 1.2.
+
+Para desplazarse por las diferentes ventanas y opciones del programa,
+utilice las cuatro flechas del cursor que se encuentran a la derecha del
+teclado alfab‚tico. Una l¡nea resaltada, o de color rojo si est  usando un
+monitor en colores, le indicar  en qu‚ lugar est  ubicado.
+
+Para ejecutar alguna acci¢n, pulse <Ent> teniendo el cursor (barra
+resaltada o de color) sobre dicha opci¢n. En algunos casos, la acci¢n
+simplemente conmuta entre dos posibilidades, en otras, le muestra alguna
+informaci¢n o le solicita que digite algo (generalmente un n£mero o un
+nombre). Para tal efecto, digite la informaci¢n pertinente y pulse <Ent>.
+Si el programa no acepta su entrada y le vuelve a preguntar, significa que
+cometi¢ alg£n error, en tal caso, repita la operaci¢n.
+
+En la mayor¡a de los casos (el programa le indicar  cuando esto no
+suceda), si se arrepiente de una operaci¢n, pulse <Esc> (parte superior
+izquierda de su teclado), y volver  al punto donde se encontraba antes.ï

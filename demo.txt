@@ -1,0 +1,23 @@
+**************************************************************************
+Textos de Ayuda para el M¢dulo de Informaci¢n del programa
+Fractales Lineales, Versi¢n 1.2.
+Desarrollado por: Fernando P‚rez
+                  Departamento de F¡sica, Universidad de Antioquia
+                  Abril/1991 (Ver. 1.0) - Septiembre/1992 (Ver. 1.2).
+                  Medell¡n, Colombia.
+**************************************************************************
+
+Demo
+Aqu¡ encuentra usted una lista de diez nombres, que representan fractales
+cuyas ecuaciones el programa trae previamente programadas. Para
+observarlos, seleccione con el cursor el nombre del que desee, y pulse
+<Ent>. Esto comienza la graficaci¢n de la figura inmediatamente. Pulsando
+cualquier tecla, se detiene el proceso de c lculo y el programa indica el
+n£mero de iteraciones realizadas hasta ese momento (una iteraci¢n
+representa un punto colocado en la pantalla). Luego, use <C> para
+continuar graficando, o <Esc> para volver al men£ del programa.
+
+Al escoger un fractal de demostraci¢n, las ecuaciones de ‚ste quedan
+cargadas en la memoria del computador, luego todas las opciones que el
+programa ofrece (alteraci¢n de las ecuaciones, modificaci¢n de la zona de
+graficaci¢n, etc.) se le pueden aplicar.ï

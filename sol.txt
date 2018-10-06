@@ -1,0 +1,122 @@
+**************************************************************************
+Textos de Ayuda para el M¢dulo de Informaci¢n del programa
+Fractales Lineales, Versi¢n 1.2.
+Desarrollado por: Fernando P‚rez
+                  Departamento de F¡sica, Universidad de Antioquia
+                  Abril/1991 (Ver. 1.0) - Septiembre/1992 (Ver. 1.2).
+                  Medell¡n, Colombia.
+**************************************************************************
+
+Soluciones
+A continuaci¢n se comentan las propuestas hechas en la secci¢n anterior,
+presentando las respuestas cuando sea necesario. Al lado de cada n£mero
+aparece un peque¤o 't¡tulo' para recordarle a qu‚ se refer¡a el ejercicio.
+
+En general, se indicar n los cambios a hacer en las ecuaciones en modo
+Geom‚trico (es decir, con r, s, é, í, B1 y B2), en tanto que estos son m s
+c¢modos para comprender intutivamente el comportamiento de las ecuaciones.
+
+1) Tri ngulo de Sierpinski --> Tri ngulo Rect ngulo: Para lograr esto,
+basta con cambiar el valor de B1 en la transformaci¢n 3 de su valor
+original de 0.25 a 0. Para entnder porqu‚ hay que cambiar precisamente
+este valor, note que los valores de B1 y B2 determinan los desplazamientos
+en los ejes X y Y asociados a cada ecuaci¢n. Por ende, al dar el valor 0 a
+B1 de T3 (de aqu¡ en adelante, Tn significar  'la transformaci¢n n'), esta
+se desplaza hacia la izquierda (antes B1 val¡a 0.25). Para observar con
+claridad las relaciones num‚ricas involucradas aqu¡, puede usar la Zona de
+Graficaci¢n Grande con los Ejes de Coordenadas activos, lo que le da
+referencias num‚ricas de las posiciones en el plano XY.
+
+2) Tri ngulo de Sierpinski --> Cristales: Se debe cambiar el SIGNO del
+par metro s (la 2a columna) en las tres ecuaciones del Tri ngulo de
+Sierpinski. En las tres, s vale originalmente 0.5, se debe entonces
+colocar en -0.5.
+
+3) Variar é y í de T2 en el Helecho: Al dar diferentes valores a los
+par metros angulares é y í de T2, se observa que la inclinaci¢n de la
+figura var¡a. Adem s, si ensaya hacerlos positivos, ver  que la planta se
+curva hacia la izquierda. Aqu¡ est  usted explorando una caracter¡stica de
+los fractales conocida t‚cnicamente como 'dependencia continua de los
+par metros', lo que significa que si a los coeficientes de las ecucaciones
+de un fractal se le hacen peque¤os cambios, el efecto producido en la
+figura debe ser relativamente peque¤o tambi‚n.
+
+En este caso particular, usted lo observ¢ con los par metros que deter-
+minan la inclinaci¢n del helecho, pero esta caracter¡stica de los fracta-
+les le puede permitir comprender mejor el significado geom‚trico de cada
+uno de los coeficientes de las ecuaciones. Realice cambios ligeros y vaya
+observando los resultados: con un poco de pr ctica comenzar  a saber qu‚
+significa cada par metro, y podr  intentar crear sus propias figuras
+introduciendo concientemente los valores, en vez de entrar n£meros al azar
+(este tambi‚n es un juego interesante, pues puede obtener resultados
+sorprendentes, pero es m s una labor de suerte que de conocimiento
+matem tico del fen¢meno).
+
+4) Helecho --> Pino: Para obtener algo parecido a la figura de un pino a
+partir del Helecho (no he logrado un resultado perfecto hasta ahora),
+ensaye cambiando é, í y B1 en T2, T3 y T4. A continuaci¢n indico los
+valores necesarios (los dem s coeficientes no necesitan cambiarse):
+                é         í        B2
+T2              0         0   (No se cambia)
+T3             -85       -85       2.5
+T4              85        85       2.5
+
+5) Arbol --> Diente de Le¢n: Una propuesta (como en el caso anterior, el
+resultado no llega a ser perfecto) es cambiar los valores de é, í y B2
+para algunas ecuaciones. A continuaci¢n se encuentran los valores
+necesarios (los dem s coeficientes permanecen inalterados):
+               é                í              B2
+T3       (No se cambia)   (No se cambia)       1
+T5            -25              -25        (No se cambia)      (Sigue...)
+T6            -45              -45             1
+
+6) Autosimilitud en el tronco del Arbol: Aqu¡ se busca simplemente que
+usted aprecie esta interesante y peculiar caracter¡stica de los fractales
+(a saber, la autosimilitud), en un punto en el cual no se hace evidente a
+simple vista. En otras figuras como el tri ngulo de Sierpinski o la curva
+de Von Koch, por ejemplo, es bastante claro que la imagen se repite en
+todos sus puntos a escalas cada vez m s peque¤as.
+
+Sin embargo, vale la pena observarlo directamente (y no solo creer que es
+cierto porque 'la teor¡a' lo afirma) en el tronco del Arbol. Note que se
+presentan 2 copias superpuestas del  rbol en el tronco, la una invertida
+con respecto a la otra. La raz¢n para la inversi¢n es el signo del
+coeficiente s en T2: signos negativos para r o s en las ecuaciones
+implican inversiones con respecto a los ejes correspondientes.
+
+Con respecto a la autosimilitud, un comentario final. Este fen¢meno tiene
+su origen en los fractales lineales (a trav‚s de un sutil mecanismo cuya
+explicaci¢n t‚cnica no interesa aqu¡) en un hecho b sico: las transforma-
+ciones afines producen copias de las figuras sobre las que act£an que
+mantienen las caracter¡sticas b sicas de las im genes originales. Rotan,
+deforman y cambian el tama¤o de las figuras, pero en general no las
+convierten en otras completamente diferentes. T‚cnicamente esto se traduce
+diciendo que se trata de transformaciones invertibles, aunque se dice 'en
+general' porque existen casos en los cuales esto no es cierto: si el
+determinante de la matriz de una transformaci¢n es nulo, es bien sabido
+que dicha transformaci¢n no es invertible, y en tal caso no produce una
+copia similar de la imagen original. Por esto, ecuaciones con Det=0
+conducir n a zonas del fractal donde no se presenta autosimilitud.
+
+Un caso de este £ltimo hecho se puede observar con la primera ecuaci¢n del
+Helecho: dado que en T1 r=0, y en general Det=rùsùCos(é-í), se tiene
+Det(T1)=0. De acuerdo con lo antes dicho, en la zona asociada a T1 no debe
+observarse el efecto de autosimilitud. Usted mismo puede comprobar que
+esto es as¡, ampliando cuanto desee la zona de T1: esta ecuaci¢n es la que
+genera la base del tallo del helecho, pero sin importar cu nto ampl¡e
+usted dicho tallo, siempre aparecer  como una l¡nea, sin jam s mostrar el
+heleho completo. Lo que sucede es que un factor r=0 implica que en esta
+zona toda la figura se comprime en la direcci¢n X a una l¡nea (se
+multiplica por 0), y por lo tanto luego no se puede restitu¡r la imagen
+original: hay una p‚rdida de informaci¢n.
+
+7) Efecto global de cambios locales: Este fen¢meno est  ¡ntimamente ligado
+a la caracter¡stica discutida en el numeral anterior, la autosimilitud.
+Note que el t‚rmino mismo implica que la figura se repita con todas sus
+caracter¡sticas b sicas en todos sus puntos. Por lo tanto, un cambio que
+en principio se realice en un s¢lo lugar necesariamente deber  reflejarse
+en toda la imagen, para lograr preservar la citada autosimilitud.
+
+Para cerrar, recuerde (de nuevo) que aqu¡ se hacen apenas algunas
+propuestas. Sin embargo, los £nicos l¡mites que debe respetar son los de
+su imaginaci¢n y curiosidad.ï

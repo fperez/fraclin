@@ -1,0 +1,127 @@
+**************************************************************************
+Textos de Ayuda para el M¢dulo de Informaci¢n del programa
+Fractales Lineales, Versi¢n 1.2.
+Desarrollado por: Fernando P‚rez
+                  Departamento de F¡sica, Universidad de Antioquia
+                  Abril/1991 (Ver. 1.0) - Septiembre/1992 (Ver. 1.2).
+                  Medell¡n, Colombia.
+**************************************************************************
+
+Matem ticas
+Dado que FracLin 1.2 incluye alternativas de manipulaci¢n matem tica,
+presentaremos aqu¡ las definiciones y ecuaciones b sicas para la compren-
+si¢n de esta parte del programa. Para un tratamiento m s detallado del
+problema, puede usted referirse al libro de Michael Barnsley (ver Biblio-
+graf¡a).
+
+Los fractales lineales se obtienen graficando conjuntos de transformacio-
+nes afines por medio de un algoritmo especial, que ser  descrito en la
+secci¢n 'Graficaci¢n' de esta misma ventana.
+
+Una transformaci¢n af¡n (TA) del plano es en general una funci¢n del tipo
+
+                         T : Rý --> Rý
+
+     (X,Y) --> T(X,Y) = (A11X + A12Y, A21X + A22Y) + (B1,B2).
+
+O, con simbolog¡a matricial
+
+                                         (Pase a la p gina siguiente...)þ
+                          Ú          ¿   Ú   ¿   Ú    ¿
+                          ³ A11  A12 ³   ³ x ³   ³ B1 ³
+       (x,y) --> T(x,y) = ³          ³ * ³   ³ + ³    ³
+                          ³ A21  A22 ³   ³ y ³   ³ B2 ³
+                          À          Ù   À   Ù   À    Ù
+
+Es decir, T es una transformaci¢n lineal seguida de una traslaci¢n. Ahora,
+T se llama contracci¢n con factor de contracci¢n å si para cualquier par
+de puntos (x,y) y (x',y') del plano, se cumple que
+
+     d[T(x,y),T(x',y')] <= å * d[(x,y),(x',y')],   con å<1,
+
+siendo d[(x,y),(x',y')] la distancia euclidiana entre estos dos puntos. Es
+decir, T es una contracci¢n si acerca cualquier par de puntos del plano.
+Si aplicamos T a una figura F (un conjunto de puntos en el plano),
+evaluando T(x,y) para todos los puntos (x,y) de F, el resultado ser , en
+general, producir una copia desplazada y deformada de F, y de menor tama¤o
+que la figura original (por ser T contractora).
+
+Damos a continuaci¢n la expresi¢n para å en fuci¢n de los coeficientes de
+la matriz de una transformaci¢n. Por brevedad, llamamos a=A11, b=A12,
+c=A21 y d=A22, con lo que la matriz queda en la forma:
+
+                            Ú      ¿
+                            ³ a  b ³
+                            ³      ³
+                            ³ c  d ³
+                            À      Ù
+
+La f¢rmula es entonces:
+
+             å=0.5{û[(a+d)ý+(b+c)ý]+û[(a-d)ý+(b-c)ý]}
+
+Por lo tanto, una transformaci¢n s¢lo ser  contractora si å dada por la
+expresi¢n anterior es menor que 1. No obstante, el programa acepta
+transformaciones que no sean estrictamente contractoras, pues durante su
+desarrollo se encontr¢ que ellas pod¡an producir figuras interesantes. Sin
+embargo, se hace la siguiente exigencia:
+
+                      aý+cý<1  y  bý+cý<1,                      (1)
+
+con la cual se garantiza que, a pesar de no ser contracciones en el
+sentido matem tico estricto, no expanden las AREAS de figuras. Para
+entender porqu‚ sucede esto, se debe tener presente que el factor de
+multiplicaci¢n de  reas de una transformaci¢n no es å (el cual es el
+factor de multiplica-ci¢n de DISTANCIAS) sino el determinante Det de la
+matriz. Ahora bien, usando los par metros geom‚tricos (ver p rrafo
+siguiente), es f cil probar que las condiciones (1) conducen a |Det|<1
+(las barras || indican, como es usual, la funci¢n Valor Absoluto). Con
+esto se tiene la contracci¢n de  reas, condici¢n suficiente para la
+aparici¢n de figuras de inter‚s.
+
+Sin embargo, cabe mencionar que si bien la definici¢n aqu¡ indicada para
+una TA es la usual, existe otra presentaci¢n para estas funciones que hace
+su manipulaci¢n mucho m s intuitiva y agradable. El efecto que una TA
+tiene sobre una imagen puede interpretarse diciendo que la TA transforma
+Rý en Rý, pero realizando cambios de escala en las direcciones X y Y, y
+rotando los ejes XY determinados valores. Cuando este valor es diferente
+para cada eje, la figura sufre mayores deformaciones: las l¡neas ven
+alteradas sus separaciones angulares originales, es decir, las
+perpendiculares dejan de ser perpendiculares. Para expresar esto
+matem ticamente, consideremos las variables r, s, é y í relacionadas con
+nuestras variables originales A11, A12, A21, y A22 as¡:
+
+          A11 = r * cos (é)  ,  A12 = - s * sen (í)
+          A21 = r * sen (é)  ,  A22 =   s * cos (í).
+
+Mediante argumentos trigonom‚tricos simples se verifica que estos nuevos
+par metros tienen la siguiente interpretaci¢n:
+
+ r : Factor de multiplicaci¢n de las distancias en el eje X.
+ s : Factor de multiplicaci¢n de las distancias en el eje Y.
+ é : Angulo que rota el eje X.
+ í : Angulo que rota el eje Y.
+
+Si r o s son negativos, entonces hay reflexi¢n con respecto al eje
+correspondiente. Para poder manipular una TA con los par metros r, s, é,
+í,usamos tambi‚n las siguientes relaciones inversas de transformaci¢n:
+
+        |r| = û(A11ý+A21ý), con signo(r) = signo(A11);
+        |s| = û(A12ý+A22ý), con signo(s) = signo(A22);
+         é = arctan(A21/A11),  í = arctan(-A12/A22).
+
+Aunque para efectuar c lculos num‚ricos es habitual emplear la primera
+presentaci¢n (que denomino 'Cartesiana'), la segunda (o 'Geom‚trica')
+resulta indudablemente m s c¢moda para hacerse una idea r pida del
+comportamiento de una TA dada.
+
+Nota: la condici¢n (1) expresada antes se puede reformular f cilmente con
+los nuevos par metros:
+
+                           r<1  y  s<1                          (1')
+
+Dado que la f¢rmula del determinante de la matriz queda
+
+                           Det=rùsùcos(é-í),
+
+aparece claro porqu‚ (1) ¢ (1') implican |Det|<1.ï

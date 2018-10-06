@@ -1,0 +1,55 @@
+**************************************************************************
+Textos de Ayuda para el M¢dulo de Informaci¢n del programa
+Fractales Lineales, Versi¢n 1.2.
+Desarrollado por: Fernando P‚rez
+                  Departamento de F¡sica, Universidad de Antioquia
+                  Abril/1991 (Ver. 1.0) - Septiembre/1992 (Ver. 1.2).
+                  Medell¡n, Colombia.
+**************************************************************************
+
+Graficaci¢n
+Si se aplica un conjunto T = {T1,T2,...,Tn} de transformaciones afines
+contractoras a una imagen F (ver el Ap‚ndice A para las definiciones
+pertinentes), se obtendr n n copias de F cuyas caracter¡sticas individua-
+les depender n de cada Tj. Repitiendo esto sobre las n im genes se
+obtienen ný, y continuando as¡, sucesivamente n^3 (n al cubo), n^4, etc...
+Este proceso, conocido como Algoritmo Determinista, permite obtener el
+fractal: a medida que el n£mero de repeticiones aumenta, y con todas las
+Tj contractoras, las im genes convergen hacia una figura l¡mite. Esta se
+denomina el Atractor de T, y es independiente de la imagen inicial F: es
+el fractal definido por T.
+
+En general, y dado el car cter iterativo de la graficaci¢n de los
+fractales, para ello se emplean siempre computadores. Sin embargo, el
+Algoritmo Determinista antes descrito es bastante lento de ejecutar a£n
+con un computador relativamente potente, dado que exige un n£mero
+demasiado elevado de c lculos antes de obtener la figura l¡mite. Una ima-
+gen promedio, a una resoluci¢n de 300 x 200 puntos (lo cual es relativa-
+mente bajo), puede contener hasta 60000 puntos, es decir que una sola
+aplicaci¢n de T (el conjunto de las n Tj) a dicha figura implica realizar
+60000 x n c lculos en Rý. Y en ciertos  casos, para llegar a la figura
+l¡mite hacen falta 30 o 40 repeticiones; es claro pues que el m‚todo se
+revela bastante ineficiente desde el punto de vista de su velocidad, sin
+mencionar la demanda de memoria que plantea, al requerir un registro
+permanente de toda el  rea de graficaci¢n.
+
+Por esto, para la realizaci¢n de im genes se emplea un procedimiento
+diferente, conocido como Algoritmo de Iteraci¢n Aleatoria. En este m‚todo,
+se asigna a cada Tj una probabilidad pj (con äpj=1) de resultar elegida en
+un proceso aleatorio. Luego se elige un punto inicial cualquiera (x0,y0),
+al cual se le aplica una de las Tj elegida con un generador de n£meros
+aleatorios y teniendo en cuenta las probabilidades. Al punto (x1,y1) =
+Tj(x0,y0) se le aplica de nuevo una Tj elegida al azar, luego al (x2,y2),
+y as¡ sucesivamente.
+
+El anterior proceso genera un conjunto {(x1,y1),...,(xm,ym)} de puntos
+que, si m es lo suficientemente grande, converge hacia el mismo atractor
+que el Algoritmo Determinista (Ver el texto de M. Barnsley referenciado en
+la bibliograf¡a, Cap.9.). Dado que el punto inicial -- elegido arbitra-
+riamente -- puede estar lejos del atractor, se desprecian los primeros 50
+o 100 puntos y se grafican los dem s. La forma de asignar las probabili-
+dades pj aumenta la velocidad del proceso: si a las transformaciones menos
+contractoras se les asignan pj mayores, la graficaci¢n se hace m s r pida:
+en promedio bastan unos 20.000 o 30.000 c lculos para obtener una buena
+imagen, lo que toma entre uno y tres minutos en un computador corriente de
+escritorio.ï

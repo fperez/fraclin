@@ -1,0 +1,107 @@
+**************************************************************************
+Textos de Ayuda para el M¢dulo de Informaci¢n del programa
+Fractales Lineales, Versi¢n 1.2.
+Desarrollado por: Fernando P‚rez
+                  Departamento de F¡sica, Universidad de Antioquia
+                  Abril/1991 (Ver. 1.0) - Septiembre/1992 (Ver. 1.2).
+                  Medell¡n, Colombia.
+**************************************************************************
+
+Ecuaciones
+Esta ventana re£ne las alternativas de manipulaci¢n matem tica del
+programa (para qui‚n est‚ interesado en esta parte, es conveniente
+referirse a la parte 'Matem ticas' de la ventana 'Informaci¢n' para las
+definiciones correspondientes antes de proseguir la lectura).
+
+La ventana Ecuaciones contiene cuatro opciones, que detallaremos a
+continuaci¢n:
+
+Opci¢n Ver: abre una ventana del tama¤o de toda la pantalla que presenta
+las ecuaciones que se encuentren en ese momento en la memoria, simult nea-
+mente en modo cartesiano y en modo geom‚trico.
+
+Durante la operaci¢n normal del programa, en la parte inferior de la
+pantalla se encuentra una peque¤a ventana que muestra permanentemente
+lasecuaciones, denominada 'Ecuaciones Vigentes'. Por razones de espacio,
+en esta ventana las ecuaciones solo aparecen en el modo especificado en la
+opci¢n Modo Activo.
+
+Opci¢n Crear: le permite crear sus propias figuras definiendo un conjunto
+de ecuaciones. El programa las almacena en memoria y las grafica, y luego
+permite alterarlas y grabarlas en disco.
+
+Primero, FracLin 1.2 pregunta qu‚ formato de presentaci¢n desea emplear
+para introducir las ecuaciones, siendo las alternativas par metros
+cartesianos o geom‚tricos. En este punto, puede usted abandonar el proceso
+y regresar al men£ principal pulsando <Esc>; si decide proseguir, deber 
+efectuarlo completo.
+
+A continuaci¢n, pregunta cu ntas transformaciones quiere definir para su
+figura (como m¡nimo debe ser una, y como m ximo ocho). Posteriormente
+todas las ecuaciones pueden ser alteradas, pero su n£mero total
+permanecer  fijo, hasta que se cree una nueva figura.
+
+Luego, viene el proceso de creaci¢n de las ecuaciones, en el cual debe
+usted introducir los par metros que las definen. En la parte inferior de
+la pantalla aparecen las instrucciones b sicas, y pulsando <F1> se puede
+obtener informaci¢n adicional.
+
+Al conclu¡r la creaci¢n de las ecuaciones, el programa pregunta si desea
+colocar alg£n nombre a la figura, el cual puede tener hasta treinta
+letras. Este nombre simplemente aparecer  en la pantalla, y no tiene
+relaci¢n con el nombre del archivo donde se grabar n las ecuaciones si as¡
+lo escoge. Este £ltimo lo preguntar  el programa s¢lo si selecciona el
+procedimiento de grabaci¢n, y tiene un m ximo de ocho letras.
+
+Inmediatamente despu‚s, comienza la graficaci¢n de la figura. En algunos
+casos es posible que no vea nada en la pantalla. Esto se debe a que el
+programa grafica en la zona del plano XY que tiene en memoria desde la
+£ltima graficaci¢n (o la configuraci¢n por defecto del momento del
+encendido), y posiblemente sea necesario hacer ajustes a la zona de
+graficaci¢n. Para esto, utilice las opciones de la ventana Pantalla.
+
+Opci¢n Editar: Desde aqu¡ puede usted alterar cualquiera de las ecuaciones
+par metro por par metro, y tanto en modo cartesiano como geom‚trico (esto
+puede seleccionarse con la opci¢n Modo Activo de la misma ventana
+Ecuaciones, o desde el proceso mismo de edici¢n de ecuaciones, con <M>).
+
+Para editar una ecuaci¢n, selecci¢nela por su n£mero. Luego, escoja cu l
+de sus par metros quiere alterar (estos est n numerados de 1 a 8, de
+acuerdo con la columna que ocupan en la pantalla de izquierda a derecha),
+y digite el nuevo valor. Si no desea modificar un par metro que ya hab¡a
+seleccionado, pulse <Esc>. Del mismo modo, use <Esc> para volver al men£
+principal.
+
+Las cols. 1-6 contienen los valores de los coeficientes de cada ecuaci¢n,
+y son los que constituyen espec¡ficamente el fractal.
+
+La s‚ptima col. indica qu‚ ecuaciones est n activas, es decir, cu les
+intervienen en el c lculo de la figura. Conmuta entre "S¡" y "No" al ser
+escogida (al pulsar 7 cuando el programa pida qu‚ par metro desea
+alterar). Desactivar una ecuaci¢n equivale a "borrarla" temporalmente del
+fractal. Observe sin embargo que no solo desaparece la zona cuyo color
+corresponde al de la ecuaci¢n dada, sino que todo el fractal se altera.
+Debido a la autosimilitud de los fractales, cambios aparentemente locales
+siempre tienen efectos de car cter global.
+
+La octava columna controla el color en que se grafica cada ecuaci¢n
+(t‚cnicamente, los puntos cuya direcci¢n de primer orden es dicha
+ecuaci¢n). Esta opci¢n es realmente £til si dispone de un monitor a color,
+pero a£n en monitores monocrom ticos puede al menos ensayar "apagando"
+ecuaciones individualmente para observar como en todo el fractal se pueden
+identificar las regiones asociadas a cada ecuaci¢n.
+
+Observe que los colores se deben seleccionar por un n£mero. Para facili-
+tarle esto, los n£meros asociados a cada color aparecen siempre en la
+parte inferior de su monitor.
+
+Cada cambio que usted haga a las ecuaciones introducir  alguna modifica-
+ci¢n en la forma de su gr fica (el fractal), para observar esto, mu‚vase a
+la ventana Graficar y pulse <Ent>. Como alternativa, use <F2>: esta tecla
+activa el proceso de graficaci¢n desde cualquier lugar del programa, sin
+necesidad de ir a la ventana Graficar.
+
+Opci¢n Modo Activo: Pulsando <Ent> sobre esta opci¢n, se conmuta el modo
+de presentaci¢n de las ecuaciones entre Cartesiano y modo Geom‚trico. Esta
+es la manera como aparecen las ecuaciones en la ventana 'Ecuaciones
+Vigentes' y cuando grafica los fractales empleando una ventana peque¤a.ï

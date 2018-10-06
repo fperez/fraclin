@@ -1,0 +1,123 @@
+**************************************************************************
+Textos de Ayuda para el M¢dulo de Informaci¢n del programa
+Fractales Lineales, Versi¢n 1.2.
+Desarrollado por: Fernando P‚rez
+                  Departamento de F¡sica, Universidad de Antioquia
+                  Abril/1991 (Ver. 1.0) - Septiembre/1992 (Ver. 1.2).
+                  Medell¡n, Colombia.
+**************************************************************************
+
+Propuestas
+En esta secci¢n, le propondremos algunas alternativas un poco m s
+'avanzadas' de trabajo con FracLin 1.2. Este programa fue concebido con la
+intenci¢n de ser utilizado de manera interactiva para explorar el mundo de
+los objetos fractales (al menos los generados por transformaciones afi-
+nes), y por lo tanto no deber¡a usted limitarse a ver las figuras
+incluidas en la ventana Demo. Esta se presenta para familiarizarle con los
+fractales en un comienzo, pero el real potencial del programa se encuentra
+en la ventana Ecuaciones, y lo ideal es que usted la emplee con frecuencia
+una vez se sienta c¢modo con el manejo b sico. Las ideas presentadas aqu¡
+se pueden considerar como 'ejercicios' para hacer con el programa, y las
+soluciones a algunos de ellos aparecen en la siguiente opci¢n de esta
+misma ventana. Sin embargo, intente trabajarlas usted mismo con paciencia
+antes de referirse a dichas respuestas.
+
+En general, la idea aqu¡ es que usted explore el mundo de los fractales
+por sus propios medios, empleando como herramienta al programa. Inicial-
+mente, puede partir de las figuras incluidas en el men£ Demo y alterarlas,
+para que se familiarice con el tipo de efectos que los cambios a las
+ecuaciones pueden tener. Si los cambioq que realice le producen resultados
+de inter‚s, gr belos usando las opciones del men£ 'Archivo', con lo cual
+puede constru¡r sus propias 'librer¡as' de fractales.
+
+Sobre todo, procure COMPRENDER el porqu‚ de los efectos que observa en la
+pantalla. La forma de los fractales no es arbitraria, depende directamente
+de los coeficientes de las ecuaciones, aunque las relaciones son a veces
+algo sutiles. Cuando est‚ realizando este trabajo, puede ser m s c¢modo
+trabajar con las ecuaciones en modo Geom‚trico, en especial si recuerda
+como se interpreta cada uno de los par metros r,s,é y í (en la opci¢n
+Matem ticas del men£ 'Informaci¢n' encontrar  detalles a este respecto).
+Tambi‚n puede ser adecuado emplear la Zona de Graficaci¢n Peque¤a, pues
+as¡ es posible ver simult neamente en la pantalla el fractal y sus
+ecuaciones. Note adem s que cada color en la pantalla corresponde a una
+ecuaci¢n. Si no dispone de monitor a color, una manera de observar la zona
+de la figura asociada a una ecuaci¢n particular de manera independiente
+puede ser colocar las dem s en el color del fondo (por lo general 0),
+utilizando el Editor de Ecuaciones.
+
+A continuaci¢n se encuentran entonces algunas sugerencias para trabajar
+con el programa. Considerelas sin embargo tan s¢lo como gu¡as, lo
+principal es dejarse llevar por la propia curiosidad e imaginaci¢n.
+
+1) Para comenzar, considere la primera figura que aparece en el men£ Demo
+de FracLin 1.2, el Tri ngulo de Sierpinski. Esta figura fue descubierta a
+comienzos de siglo por un matem tico polaco (de apellido Sierpinski,
+l¢gicamente), aunque sus singulares propiedades geom‚tricas fueron
+comprendidas sino hasta el desarrollo de la teor¡a de fractales. Intente
+convertir esta figura en un tri ngulo rect ngulo con su  ngulo recto en la
+esquina inferior izquierda. (Pista: basta con cambiar un s¢lo n£mero en
+las ecuaciones).
+
+2) Siguiendo con el Tri ngulo de Sierpinski, observe que el fractal
+Cristales (del men£ Demo) tiene tambi‚n 3 ecuaciones. Sin mirar la forma
+de estas, sino tan s¢lo observando la figura y compar ndola con el
+Tri ngulo, trate de convertir un fractal en el otro: en el fondo, son
+figuras (Cristales y el Tri ngulo) con una estructura matem tica muy
+similar.
+
+3) Ahora pase al Helecho. Observe que los par metros angulares (é y í) de
+la SEGUNDA ecuaci¢n son muy peque¤os: -1.719 (recuerde que estos son los
+valores, en grados, que rotan el eje X y el eje Y). Juege un poco con esta
+figura cambiando estos valores por otros diferentes. Aqu¡ debe observar un
+hecho: si bien el programa le permite cambiar el valor de é independiente-
+mente del de í, para preservar la estructura general de la figura debe
+mantener estos dos  ngulos en el mismo valor (por ej, si va a cambiar de
+-1.719ø a -5ø, le debe asignar el valor -5 tanto a é como a í). Claro
+est , a t¡tulo de experimento puede tambi‚n ensayar (toda exploraci¢n es
+v lida, ­se trata de indagar!) cambiando é y í en valores distintos, pero
+en este caso mantenga a é y í en valores iguales.
+
+Volviendo a lo que dec¡amos del helecho, haga peque¤as variaciones sobre é
+y í y observe los resultados. Si en vez de -1.719 coloca -3, por ejemplo,
+ver  que la inclinaci¢n del helecho se hace mayor, como si el viento
+soplara sobre ‚l. Ahora cambie el SIGNO de é y í: la explicaci¢n del
+resultado estriba en que las rotaciones definidas por é y í tienen SENTIDO
+definido.
+
+Nota: Si al hacer cambios alguna porci¢n de la figura se sale de su
+monitor, vaya al men£ pantalla y ampl¡e los valores de Eje X, Eje Y para
+abarcar una regi¢n mayor del plano XY y as¡ poder ver la figura completa.
+
+4) Continuando con el Helecho, intente construir una figura que se parezca
+a un PINO a partir de las mismas ecuaciones del Helecho.
+
+5) Tome luego el Arbol, y trate de obtener a partir de ‚l una figura
+parecida a la flor del Diente de Le¢n: todas las ramas saliendo del mismo
+punto del copo.
+
+6) De nuevo con el Arbol, observe una caracter¡stica especial de los
+fractales con ‚l: la AUTOSIMILITUD. Ya mencionamos antes que este nombre
+se da a un fen¢meno especial que exhiben los fractales, y es que si se
+ampl¡a una parte dada de un fractal, se encuentran caracter¡sticas
+geom‚tricas an logas a las de la figura original. En el  rbol esto parece
+bstante evidente con las ramas, pero a primera vista no sucede con el
+tronco, el cual da la impresi¢n de ser casi 'macizo'. Pues bien, si usted
+ampl¡a lo suficiente el tronco, ver  un resultado bastante interesante.
+Para este efecto, use los siguientes valores en el men£ Pantalla:
+  - Comienzo del eje X: -0.05
+  - Final del eje X   : 0.05
+  - Comienzo del eje Y: 0
+  - Final del eje Y   : 1.3.
+Nota: si no dispone de un monitor a color, la imagen que aqu¡ resulta
+puede parecer un poco confusa. Para aclararla, asigne a la segunda ecua-
+ci¢n el color del fondo de modo que temporalmente no se vea, evitandio as¡
+que se sobreponga con la primera.
+
+7) Si cuando llegue aqu¡ ha realizado todos los 'ejercicios' anteriores,
+probablemente habr  notado un hecho interesante: cuando usted cambia un
+valor en una ecuaci¢n y grafica para observar el resultado, no solo
+aparece modificada una regi¢n de la figura sino toda ella. Es decir,
+cambios que en principio parecen locales (se hacen a una sola ecuaci¢n)
+tienen efectos de car cter global (afectan toda la figura). Intente
+encontrar la respuesta al porqu‚ de este hecho (Pista: piense en la
+autosimilitud de los fractales).ï

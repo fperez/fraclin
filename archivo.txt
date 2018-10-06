@@ -1,0 +1,60 @@
+**************************************************************************
+Textos de Ayuda para el M¢dulo de Informaci¢n del programa
+Fractales Lineales, Versi¢n 1.2.
+Desarrollado por: Fernando P‚rez
+                  Departamento de F¡sica, Universidad de Antioquia
+                  Abril/1991 (Ver. 1.0) - Septiembre/1992 (Ver. 1.2).
+                  Medell¡n, Colombia.
+**************************************************************************
+
+Archivo
+Aqu¡ se re£nen las opciones de manejo de archivos en disco, y la salida
+del programa (tambi‚n posible con <Alt>-<X>).
+
+Opci¢n Directorio: Muestra el directorio actualmente configurado para las
+operaciones de grabaci¢n y lectura de figuras. Cuando el programa
+comienza, lee ‚ste directorio del archivo FRACTAL.INI. Si no encuentra
+este archivo, el directorio no queda configurado y el programa grabar  y
+leer  del directorio donde el DOS estuviese ubicado al momento de
+comenzar.
+
+A continuaci¢n, le pregunta si desea cambiar el directorio. Esto se debe
+hacer, por ejemplo, si el programa est  corriendo desde el disco (A) y
+desea grabar una figura en el disco (B). Si cambia de directorio, esta
+nueva configuraci¢n permanecer  vigente mientras el programa est‚ activo,
+pero cada vez que se reinicie, volver  a la configuraci¢n inicial.
+
+Opci¢n Ver Dir: FracLin 1.2 graba todas las figuras con extensi¢n .FRA, y
+cuando usted activa esta opci¢n, le muestra una lista de los archivos .FRA
+que se encuentren en el directorio actualmente configurado. Si desea
+revisar alg£n otro disco o directorio, cambie la configuraci¢n con la
+opci¢n Directorio.
+
+Opci¢n Leer: FracLin 1.2 le preguta el nombre de un archivo y lo lee del
+directorio vigente en ese momento. Para revisar qu‚ figuras hay grabadas
+en dicho directorio, utilice la opci¢n 'Ver Dir'.
+
+Si despu‚s de haber entrado a esta opci¢n se arrepiente y no desea leer
+ninguna figura de disco, pulse <Esc>.
+
+Opci¢n Grabar: Aqu¡, el programa le pregunta un nombre para grabar las
+ecuaciones que se encuentren actualmente vigentes. Este puede contener
+letras y n£meros, pero FracLin 1.2 s¢lo le permitir  digitar ocho letras
+(el l¡mite impuesto por el DOS para el nombre de cualquier archivo), y le
+colocar  autom ticamente la extensi¢n .FRA. En este archivo grabar  el
+ rea del plano cartesiano actualmente vigente (opciones 1-4 de la ventana
+Pantalla), el nombre de la figura y sus ecuaciones. As¡, cada vez que la
+recupere, volver  a aparacer en su pantalla del mismo modo que cuando la
+grab¢. Toda figura previamente grabada puede ser modificada y editada
+cu ntas veces lo desee; sin embargo, si le hace alguna alteraci¢n pero
+quiere conservar la figura original en disco, grabe la nueva versi¢n con
+un nombre diferente al que tenga la original.
+
+Si despu‚s de haber entrado a esta opci¢n se arrepiente y no desea
+grabar, pulse <Esc>.
+
+Opci¢n Salir: Desde aqu¡, abandona usted FracLin y regresa al M¢dulo de
+Informaci¢n. Tambi‚n puede salir del programa estando en cualquier otra
+ventana si pulsa simult neamente las teclas <Alt> y <X>. Puede pasar entre
+FracLin y el M¢dulo cu ntas veces lo desee, pero la salida definitiva al
+sistema operativo se realiza desde el M¢dulo de Informaci¢n.ï

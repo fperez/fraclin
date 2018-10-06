@@ -1,0 +1,100 @@
+**************************************************************************
+Textos de Ayuda para el M¢dulo de Informaci¢n del programa
+Fractales Lineales, Versi¢n 1.2.
+Desarrollado por: Fernando PÇrez
+                  Departamento de F°sica, Universidad de Antioquia
+                  Abril/1991 (Ver. 1.0) - Septiembre/1992 (Ver. 1.2).
+                  Medell°n, Colombia.
+**************************************************************************
+
+Nota del Autor
+FracLin 1.2 fue inicialmente dise§ado en el Departamento de F°sica de la
+Universidad de Antioquia durante el a§o de 1991, como parte de un curso de
+simulaci¢n de procesos f°sicos y matem†ticos en computador.
+
+En primera instancia buscaba satisfacer un interÇs personal por los
+fractales, siendo una herramienta £til y flexible para manipular estos
+objetos matem†ticos (en especial los de tipo lineal). Pero a medida que el
+proyecto evolucion¢, surgi¢ la idea de que fuese empleado por personas con
+pocos conocimientos de programaci¢n, y se perfil¢ como un buen elemento
+demostrativo de los fractales, en especial dada la escasez de esta clase
+de programas en nuestro medio. El tipo de interfaz con que cuenta, en un
+formato de ventanas y men£s, y con ayudas incorporadas, intenta hacerlo
+adecuado a Çste prop¢sito.
+
+Considerando satisfecho el primero de sus objetivos (el interÇs personal
+por los fractales), ahora espero que FracLin 1.2 despierte curiosidad e
+interÇs entre otras personas (de todos los niveles de conocimientos
+matem†ticos) por esta rama de las matem†ticas contempor†neas, extra§a,
+poco convencional y llena de sorpresas, tanto de car†cter te¢rico y
+conceptual como puramente visuales.
+
+DespuÇs del mundo visitado por el programa existen otros a£n m†s bellos,
+aunque arduos de explorar: el trabajo con fractales generados por
+transformaciones complejas no lineales (donde se esconde el fascinante
+Conjunto de Mandelbrot, que al decir de algunos es el objeto m†s complejo
+y desconocido de toda la matem†tica), sus proyecciones sobre esferas de
+Riemann (im†genes que semejan planetas fant†sticos y distantes), y los
+atractores de ecuaciones diferenciales no lineales, donde se aloja la
+intrincada din†mica del comportamiento ca¢tico, mezcla armoniosa de orden
+y desorden, aparente aleatoriedad local dentro de una estructura global.
+
+Llegado a este punto, quisiera hacer una peque§a precisi¢n de car†cter
+tÇcnico, deliberadamente omitida en la secci¢n titulada 'Matem†ticas' con
+el †nimo de respetar la forma de las presentaciones usualmente hechas de
+este tema. Los fractales generados por Transformaciones Afines son
+denominados Lineales por autores de indiscutible autoridad (JÅrgens,
+Peitgen y Saupe, ver Bibliograf°a), y sin embargo vale la pena precisar
+que el tÇrmino lineal hace referencia aqu° simplemente al hecho de que las
+Transformaciones Afines (TA) conservan las l°neas rectas como tales. En
+rigor, una TA definida como
+                          T(X) = AX+B,
+
+donde X,B son vectores en R˝ y A es una matriz 2x2, no es un operador
+lineal. Es decir, no cumple que :
+
+                     T(X+Y) = T(X) + T(Y), ni
+                     T(aX) = aT(X).
+
+La no linealidad de T se debe exclusivamente al vector B, pero es
+precisamente esto lo que produce fractales. Una TA con B=(0,0) es un
+operador lineal, pero un conjunto de tales TA's (contractoras) no tiene
+como atractor una figura fractal, sino simplemente un punto en el origen
+de coordenadas. Del mismo modo que en el estudio de las ecuaciones
+diferenciales s¢lo las no lineales producen atractores "extra§os"
+(fractales, asociados a comportamiento ca¢tico), en el domino de las
+transformaciones algebraicas son tambiÇn las de tipo no lineal las
+causantes de fen¢menos de mayor riqueza.
+
+Acercarse al mundo de las matem†ticas no lineales es una tarea que
+encierra formidables retos, tanto de car†cter te¢rico, en tanto que apenas
+si existen esbozos de un marco te¢rico general que englobe y unifique los
+problemas no lineales, como pr†ctico, dada la dificultad de los c†lculos a
+realizar. No obstante, se antoja que es precisamente all° donde podremos
+encontrar una respuesta de car†cter matem†tico a muchos de aquellos
+problemas que la ciencia se hab°a visto tradicionalmente obligada a
+relegar a un segundo plano de atenci¢n, como si fuesen de menor
+importancia. Pero lo cierto parece ser que la esecia matem†tica de la
+naturaleza, si es que tal cosa se puede considerar de alg£n modo v†lido
+como existente, es b†sicamente no lineal.
+
+Alrededor de los fractales a£n existe mucha investigaci¢n por hacer, y
+ser°a excelente que en nuestro medio se les dedicara un mayor interÇs del
+que reciben actualmente. Sus gr†ficas llegan a ser de gran belleza y el
+trabajo matem†tico que ofrecen est† lleno de interesantes y dif°ciles
+retos.
+
+Que FracLin 1.2 sea pues una invitaci¢n (un abrebocas) a adentrarse en
+este fascinante mundo de los fractales. Comentarios, sugerencias y
+observaciones de todo tipo ser†n bienvenidos, as° como informaci¢n sobre
+otros trabajos de esta clase en el pa°s.
+
+Antes de cerrar, quisiera reconocer y agradecer el sincero apoyo brindado
+por el Profesor Manuel J. P†ez, PhD., en el desarrollo inicial de este
+programa. Si a pesar de la depuraci¢n a que se someti¢ quedan a£n errores,
+le agradecerÇ a quien los detecte que me informe de ello para corregirlos.
+
+
+Fernando PÇrez A.
+Departamento de F°sica,
+Universidad de Antioquia, 1991-92.Ô

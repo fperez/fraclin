@@ -1,0 +1,78 @@
+**************************************************************************
+Textos de Ayuda para el M¢dulo de Informaci¢n del programa
+Fractales Lineales, Versi¢n 1.2.
+Desarrollado por: Fernando P‚rez
+                  Departamento de F¡sica, Universidad de Antioquia
+                  Abril/1991 (Ver. 1.0) - Septiembre/1992 (Ver. 1.2).
+                  Medell¡n, Colombia.
+**************************************************************************
+
+Pantalla
+Esta ventana reune las posibilidades ofrecidas por el programa para la
+presentaci¢n de las gr ficas en pantalla.
+
+Las primeras cuatro opciones (Comienzo del eje X, Final del eje X,
+Comienzo del eje Y, Final del eje Y): Definen los extremos de un
+rect ngulo en el plano cartesiano. Este rect ngulo es la zona que la
+pantalla de graficaci¢n muestra cuando se genera una figura. Por razones
+de su estructura matem tica misma, cada fractal aparece en una regi¢n del
+plano y a un tama¤o diferentes, que dependen estrictamente de sus ecua-
+ciones y var¡an mucho entre uno y otro. Por lo tanto, para cada figura es
+necesario ajustar manualmente la zona de graficaci¢n .
+
+Si al crear un fractal le sucede que la gr fica no aparece en la pantalla,
+o aparece cortada, modifique el  rea de graficaci¢n con estas opciones,
+pues lo m s probable es que el programa est‚ graficando en una regi¢n del
+plano donde no se encuentra el fractal.
+
+Adem s, con estas opciones es posible hacer un efecto de 'lupa' o 'zoom'
+con la pantalla de graficaci¢n, para observar en detalle alguna parte
+espec¡fica de la gr fica de un fractal. As¡, se puede ver con claridad el
+efecto de autosimilitud de los fractales: graficando en una peque¤a
+porci¢n de la figura, reaparece una imagen similar a la de la figura
+original. Aqu¡ se debe hacer una obsevaci¢n: a pesar de que se est‚
+graficando en una zona reducida de la figura, el programa debe calcular
+(por razones matem ticas) todo el fractal; por lo tanto, a medida que se
+hace un efecto mayor de 'zoom', la graficaci¢n se torna cada vez m s
+lenta.
+
+Opci¢n Ejes en Pantalla: Conmuta entre S¡/No, y determina si se trazan o
+no los ejes XY del plano cartesiano en la pantalla. Estos sirven de
+referencia cuando se desee alterar la zona de graficaci¢n. Adem s, si se
+est  usando la ventana de graficaci¢n grande (ver opci¢n siguiente), los
+ejes aparecen con marcas num‚ricas que hacen m s f cil ubicar un punto de
+la pantalla.
+
+Opci¢n Ventana de Graficaci¢n: Conmuta entre Peque¤a/Grande. Selecciona
+qu‚ proporci¢n de la pantalla se emplea para graficar las figuras. No se
+debe confundir esto con la regi¢n del plano XY en que se grafica, la cual
+se determina con las primeras cuatro opciones de esta ventana. Esta opci¢n
+simplemente hace que la misma gr fica se realice en una porci¢n mayor o
+menor del monitor del computador.
+
+Con Ventana Peque¤a, dado que la gr fica no ocupa sino una reducida
+porci¢n de la pantalla, se presentan a la izquierda del fractal las
+ecuaciones que est‚n activas, y que son las que efectiivamente determinan
+la imagen resultante. Por ejemplo, si se tiene un fractal con 6 ecuaciones
+pero la 2a y la 4a se han desactivado, en realidad se trata de un fractal
+de 4 ecuaciones, y ‚stas son las que aparecen en la pantalla (se muestran
+en el modo activo al momento de graficar, Cartesiano o Geom‚trico).
+
+Cuando se selecciona Ventana Grande, se obtiene una imagen del fractal que
+ocupa la casi totalidad de la pantalla, y si los ejes XY han sido acti-
+vados, aparecen con divisiones num‚ricas. Sin embargo, no queda espacio
+suficiente para mostrar simult neamente el fractal y sus ecuaciones.
+
+Opci¢n Men£ de Colores: Le permite escoger los colores para las distintas
+partes de la pantalla de graficaci¢n: el fondo, la ventana de graficaci¢n.
+el texto y los bordes, y los ejes de coordenadas XY. As¡ puede usted
+configurar la presentaci¢n como m s le agrade, o adaptar los colores del
+monitor a alguna necesidad espec¡fica. Por ejemplo, si desea emplear un
+programa de captura de gr ficos para inclu¡r fractales en un documento
+escrito, y no dispones de una impresora a color, puede obtener mejores
+resultados graficando todas las ecuaciones en negro y colocando la
+pantalla (fondo y ventana de graficaci¢n) en blanco.
+
+Opci¢n Nombre de la Figura: Muestra el nombre que se le haya dado a la
+figura, y permite cambiarlo si se desea. Este nombre aparece en la parte
+superior derecha de la pantalla cuando se est‚ graficando.ï

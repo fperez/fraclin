@@ -1,0 +1,82 @@
+**************************************************************************
+Textos de Ayuda para el M¢dulo de Informaci¢n del programa
+Fractales Lineales, Versi¢n 1.2.
+Desarrollado por: Fernando P‚rez
+                  Departamento de F¡sica, Universidad de Antioquia
+                  Abril/1991 (Ver. 1.0) - Septiembre/1992 (Ver. 1.2).
+                  Medell¡n, Colombia.
+**************************************************************************
+
+Presentaci¢n
+FRACTALES LINEALES 1.2 es un programa interactivo para trabajar con
+objetos fractales, dise¤ado -- como su nombre lo indica -- para manejar
+fractales lineales (generados por iteraci¢n de un conjunto de trans-
+formaciones afines del plano).
+Permite manejar hasta 8 transformaciones, alterar cualquiera de sus
+par metros, y escoger el formato de graficaci¢n (es decir, la presen-
+taci¢n en pantalla) que se desee para observar la gr fica del fractal. En
+primera instancia (en este momento), usted se encuentra en el denominado
+"M¢dulo de Informaci¢n" de FRACTALES LINEALES 1.2. Este contiene toda la
+informaci¢n necesaria para operar el programa propiamente dicho, catalo-
+gada por secciones tem ticas. Es algo as¡ como un "manual electr¢nico" de
+FRACTALES LINEALES 1.2 (al cual en lo sucesivo nos referiremos como
+FracLin 1.2 por razones de brevedad), que adem s ofrece la misma
+presentaci¢n en pantalla y forma de operaci¢n que FracLin 1.2.
+
+Para manejarlo, use las flechas del teclado para desplazar la barra de
+color por las diferentes opciones y ventanas, y pulse <ENTER> cuando desee
+ejecutar alguna opci¢n sobre la cual se encuentre ubicado. Este m¢dulo
+presenta 5 ventanas (Instrucciones, Operar, Informaci¢n, Sugerencias y
+Salir), que m s adelante describiremos brevemente.
+
+Las ventanas 'Instrucciones','Informaci¢n' y 'Sugerencias' presentan
+textos en la pantalla, que se pueden leer ah¡ mismo o imprimirse en papel.
+Si la informaci¢n abarca varias p ginas (en la parte inferior derecha de
+la pantalla se indica el n£mero total de ‚stas y en cu l se encuentra
+usted ubicado), puede moverse hacia adelante o hacia atr s usando las
+teclas:
+ ù Page Up o Flecha Arriba()  : P gina anterior
+ ù Page Down o Flecha Abajo() : P gina siguiente.
+Si desea imprimir el texto completo, aliste su impresora y simplemente
+pulse la tecla <i>.
+
+A continuaci¢n, detallamos brevemente el contenido de las cinco ventanas
+del "M¢dulo de Informaci¢n":
+
+- La ventana rotulada 'Instrucciones' contiene, adem s de este texto de
+presentaci¢n que actualmente lee, las explicaciones referentes al manejo
+de FracLin 1.2.  Por lo tanto, todo lo que en ella se diga hace referencia
+a comandos, funciones y operaciones propias de dicho programa. Recuerde
+que este "M¢dulo de Informaci¢n" es tan s¢lo un manual de instrucciones
+electr¢nico, que carece de funciones gr ficas o matem ticas. Con <ENTER>
+obtendr  en su pantalla informaci¢n espec¡fica sobre las diferentes partes
+del programa FracLin 1.2, que podr  leer ah¡ mismo o imprimir en papel
+para su posterior consulta. Los nombres 'Demo', 'Ecuaciones', 'Pantalla',
+'Graficar' y 'Archivo' (que aparecen en la primera ventana del M¢dulo de
+Informaci¢n) se refieren a las ventanas de FracLin 1.2, y en ellos se
+encuentran descripciones detalladas de la operaci¢n de estas.
+
+- La ventana 'Operar' es la puerta de acceso al programa FracLin 1.2.
+Puslando <ENTER> aqu¡, se ingresa al ambiente de trabajo de FracLin 1.2
+propiamente dicho, en el cual se realizan todas las operaciones con
+fractales. Al salir de FracLin, usted regresar  al "M¢dulo de Infor-
+maci¢n", desde el cual puede seguir consultando textos o salir por
+completo al sistema operativo.
+
+- La ventana 'Informaci¢n' presenta material adicional sobre el tema de
+los fractales, incluyendo algunos detalles matem ticos y referencias
+bibliogr ficas para consulta posterior.
+
+- La ventana 'Sugerencias' ofrece ideas al usuario para explorar un poco
+el mundo de los fractales, cuando se haya familiarizado con el manejo
+b sico de FracLin 1.2. Se proponen 'ejercicios' para hacer con el
+programa, y se presentan tambi‚n las 'soluciones' a algunos de ellos,
+cuando se consider¢ necesario hacerlo.
+
+- La ventana 'Salir' le permite abandonar el "M¢dulo de Informaci¢n" y
+volver definitivamente al sistema operativo, previa confirmaci¢n de su
+decisi¢n.
+
+Nota: De ahora en adelante, las ¢rdenes con teclas se indicar n
+simplemente con el s¡mbolo <>. Por ejemplo, "para cancelar, use la tecla
+<Escape>" ser  "para cancelar, use <Esc>".ï

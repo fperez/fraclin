@@ -1,0 +1,114 @@
+**************************************************************************
+Textos de Ayuda para el M¢dulo de Informaci¢n del programa
+Fractales Lineales, Versi¢n 1.2.
+Desarrollado por: Fernando P‚rez
+                  Departamento de F¡sica, Universidad de Antioquia
+                  Abril/1991 (Ver. 1.0) - Septiembre/1992 (Ver. 1.2).
+                  Medell¡n, Colombia.
+**************************************************************************
+
+Los Fractales
+El concepto de "objeto fractal" fu‚ b sicamente desarrollado por el
+investigador polaco BenoŒt B. Mandelbrot durante las d‚cadas del 60 y el
+70, y tiene una historia peculiar en cuanto a su g‚nesis, dada la
+diversidad y aparente inconexi¢n de los fen¢menos que lo originaron.
+
+Mandelbrot pose¡a un especial talento para lograr una imagen mental de
+car cter geom‚trico de casi cualquier problema, por abstracto o desligado
+de la geometr¡a que pareciese en un principio. Estudiando fen¢menos a
+primera vista tan dis¡miles como los cambios del nivel de un r¡o a lo
+largo del a¤o, la medici¢n de la longitud de una costa, la evoluci¢n de
+los precios del algod¢n, y la aparici¢n de ruido en l¡neas de transmisi¢n
+de datos, encontr¢ que a la luz de una mirada geom‚trica particular, todos
+ellos exhib¡an algunas caracter¡sticas comunes bastante interesantes. En
+especial, llam¢ su atenci¢n algo que posteriormente vino a conocerse como
+"invariancia bajo escala". Este nombre describe el hecho de que las
+gr ficas de todos estos fen¢menos presentaban un aspecto muy similar al
+ser observadas a diferentes escalas, lo que parec¡a chocar con el sentido
+com£n. Por ejemplo, los economistas siempre hab¡an considerado que las
+fluctuaciones de precios a corto plazo eran originadas por factores
+pasajeros y altamente aleatorios, mientras que los cambios a largo plazo
+se deb¡an a factores de gran escala, f cilmente identificables. Lo que
+Mandelbrot encontr¢ iba en contra de este cl sico supuesto: la forma
+general de la gr fica de los precios (o del nivel del r¡o, o la distribu-
+ci¢n en el tiempo del ruido electr¢nico, etc.) en un intervalo de unos
+pocos d¡as era muy similar a una gr fica que abarcase un per¡odo de varios
+meses.
+
+En los fen¢menos del mundo real, la escala no pod¡a ser reducida
+arbitrariamente (los precios no fluct£an en un milisegundo, por ejemplo),
+pero la idealizaci¢n matem tica s¡ permit¡a tal cosa. As¡, surgi¢ la idea
+de figuras que pod¡an ser magnificadas ad infinitum, y que en cada
+ampliaci¢n ofrec¡an una imagen similar a la de la figura original. Los
+objetos que exhiben esta peculiar caracter¡stica, ser "iguales a s¡
+mismos", se denominan autosimilares. Esto conlleva como consecuencia
+necesaria la aparici¢n de nuevos detalles en cada paso de ampliaci¢n, y
+por lo tanto estas figuras tienen una estructura sumamente (en realidad,
+infinitamente) compleja, llena de divisiones, rugosidades y
+fragmentaciones. A grandes rasgos, tales objetos constituyen lo que se
+conoce como un fractal.
+
+La caracterizaci¢n matem tica precisa del t‚rmino tiene relaci¢n con la
+idea de dimensi¢n, en una acepci¢n relativamente especializada de este
+concepto que no detallaremos aqu¡. B stenos con decir que se considera
+como fractal una figura que exhibe una dimensi¢n, apropiadamente
+calculada, no entera (fraccionaria).  El t‚rmino dimensi¢n intenta
+describir, entre otras cosas, "qu‚ tanto llena el espacio" un objeto dado;
+as¡, un plano tiene una dimensi¢n (igual a 2) mayor que la de una l¡nea
+(1) porque "ocupa" m s espacio que  ‚sta. Cuando se dice que un fractal
+tiene, por ejemplo, una dimensi¢n de 1.6, esto indica que llena m s el
+espacio que una recta o curva convencional, aunque no ocupa un plano por
+completo. La dimensi¢n tambi‚n describe la irregularidad del objeto, que
+est  ¡ntimamente ligada con su capacidad para llenar un espacio: un objeto
+muy irregular ocupa m s espacio que uno liso. Esto es bien sabido por todo
+aquel que haya empacado una maleta: la ropa arrugada es m s dif¡cil de
+acomodar que la ropa planchada y doblada. As¡, entre dos fractales, ser 
+m s irregular aquel con la mayor dimensi¢n.
+
+A los fractales se les ha encontrado aplicaci¢n en las  reas m s diversas
+de las ciencias, desde la f¡sica de las superficies hasta los modelos de
+distribuci¢n de las galaxias, pasando por el an lisis de problemas de
+hidrolog¡a y el estudio de las poblaciones animales. Han sido
+desarrollados m‚todos para calcular la dimensi¢n fractal de muchos
+objetos, encontr ndose por ejemplo que la dimensi¢n del sistema venoso
+humano es aproximadamente 2.7, y la de la superficie de los pulmones 2.17.
+Parece ser que la naturaleza tiene una especial predilecci¢n por la
+generaci¢n de dimensiones no enteras (al punto que Mandelbrot mismo titula
+su mayor obra de divulgaci¢n sobre el tema La geometr¡a fractal de la
+naturaleza), y es posible que esto vaya m s all  de una mera coin-
+cidencia. Por ejemplo, un sistema como los pulmones opera en el organismo
+intercambiando gases sobre su superficie, luego su eficiencia es
+proporcional a su  rea superficial. Dado que el volumen total de la
+cavidad tor xica es limitado, una distribuci¢n altamente rugosa (y que por
+lo tanto conduce a una dimensi¢n fraccionaria) logra producir una gran
+ rea superficial dentro de ese volumen (mediciones hechas con microscopio
+electr¢nico sugieren un  rea de unos 140 mý). Es decir, las estructuras
+biol¢gicas de car cter fractal llegan a ser bastante eficientes con
+relaci¢n a problemas de aprovechamiento del espacio, lo que las favorece
+sobre el terreno evolutivo.
+
+Los conceptos desarrollados por la teor¡a de fractales, y sus aplicaciones
+pr cticas, son objeto hoy en d¡a de intenso estudio en muchos lugares del
+mundo, y constituyen un cuerpo te¢rico que a la vez re£ne una gran belleza
+matem tica, especiales atractivos est‚ticos (las im genes de algunos
+fractales son verdaderas "obras de arte matem tico"), y un importante
+potencial de aplicaci¢n.
+
+Este programa de computador, denominado FracLin 1.2, manipula una parte
+espec¡fica de tan vasto mundo: los conocidos como fractales lineales.
+Existen diversos procedimientos matem ticos para generar fractales: se
+pueden emplear transformaciones reales, complejas, o ecuaciones
+diferenciales, entre otros. El programa utiliza un tipo de operaciones
+reales en el plano llamadas Transformaciones Afines  , que son b sicamente
+operaciones de multiplicaci¢n y suma. Esta es tal vez la manera m s
+sencilla de introducirse al mundo de los fractales, pues aunque no se
+necesitan conocimientos matem ticos de alto nivel, las figuras as¡
+obtenidas ilustran las caracter¡sticas fundamentales de estos llamativos
+objetos (autosimilitud, dimensi¢n fraccionaria, detalle y complejidad
+infinita, etc.).
+
+FracLin 1.2 ofrece al usuario la posibilidad de obsevar figuras (incluye
+algunas previamente programadas para demostraci¢n), alterarlas, crear
+otras nuevas, ampliarlas en cualquier punto para estudiar su autosi-
+militud, y grabarlas en disco. As¡, este puede crear sus propias
+"librer¡as" de fractales a medida que encuentre figuras de inter‚s.ï

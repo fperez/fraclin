@@ -1,0 +1,16 @@
+**************************************************************************
+Textos de Ayuda para el M¢dulo de Informaci¢n del programa
+Fractales Lineales, Versi¢n 1.2.
+Desarrollado por: Fernando P‚rez
+                  Departamento de F¡sica, Universidad de Antioquia
+                  Abril/1991 (Ver. 1.0) - Septiembre/1992 (Ver. 1.2).
+                  Medell¡n, Colombia.
+**************************************************************************
+
+Las Ventanas
+FracLin 1.2, al igual que el M¢dulo de Informaci¢n, presenta en la parte
+superior de la pantalla una l¡nea con cinco opciones, que corresponden a
+cinco men£s (estos se despliegan como ventanas a partir del encabeza-
+miento). Las ventanas (en FracLin 1.2) re£nen conjuntos de funciones por
+categor¡as, y sus nombres son: Demo, Ecuaciones, Pantalla, Graficar, y
+Archivo.ï
